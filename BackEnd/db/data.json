@@ -1,0 +1,72 @@
+[
+  {
+    "game": [
+      {
+        "id": 1,
+        "player": [
+          {
+            "idPlayer": 1,
+            "name": "Tai",
+            "row": [
+              {
+                "idRow": 1,
+                "points": 1
+              },
+              {
+                "idRow": 2,
+                "points": 2
+              }
+            ]
+          },
+          {
+            "idPlayer": 2,
+            "name": "Hung",
+            "row": [
+              {
+                "idRow": 1,
+                "points": 1
+              },
+              {
+                "idRow": 2,
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "player": [
+          {
+            "idPlayer": 3,
+            "name": "Thang",
+            "row": [
+              {
+                "idRow": 1,
+                "points": 1
+              },
+              {
+                "idRow": 2,
+                "points": 2
+              }
+            ]
+          },
+          {
+            "idPlayer": 4,
+            "name": "Tu",
+            "row": [
+              {
+                "idRow": 1,
+                "points": 1
+              },
+              {
+                "idRow": 2,
+                "points": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

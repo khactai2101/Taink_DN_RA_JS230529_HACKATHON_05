@@ -1,0 +1,39 @@
+.input {
+  margin-bottom: 5px;
+}
+.create-game {
+  margin-bottom: 50px;
+}
+input {
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid;
+  height: 30px;
+}
+button {
+  background-color: #00bfff;
+  color: white;
+  height: 40px;
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+table {
+  border-top: 1px solid black;
+  border-collapse: collapse;
+}
+.second {
+  background-color: #00bfff;
+  color: white;
+  height: 30px;
+}
+table tr th {
+  text-align: start;
+}
+td {
+  padding: 5px;
+}
+tr {
+  border-bottom: 1px solid black;
+}
