@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "225c05cb-2215-4318-a189-dd791743c503",
+		"name": "HackathonBasic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21482482"
+	},
+	"item": [
+		{
+			"name": "GetAllUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOneUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/1000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "NguyenKhacTai",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditUser",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "ád",
+							"value": "d",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Tai",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUser",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/5a33c118-4309-41c8-8787-ff34d82c462b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"5a33c118-4309-41c8-8787-ff34d82c462b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditPost",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "body",
+							"value": "hi",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:2023/api/100?name=hi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2023",
+					"path": [
+						"api",
+						"100"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "hi"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeletePost",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2023/api/deletePost/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2023",
+					"path": [
+						"api",
+						"deletePost",
+						"100"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
