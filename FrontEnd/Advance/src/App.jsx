@@ -16,7 +16,6 @@ function App() {
     }
     fetchData();
   }, []);
-  console.log(data[0].game, "âssâss");
   return (
     <div className="app">
       <h1>Score kepper</h1>
@@ -38,7 +37,11 @@ function App() {
       <div className="table">
         <table>
           <tr>
-            <th>asa</th>
+            <th>#</th>
+            <th>Tai</th>
+            <th>Tu</th>
+            <th>Thang</th>
+            <th>Hung</th>
           </tr>
           <tr className="second">
             <td>Sum of scores(20)</td>
